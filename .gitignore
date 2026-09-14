@@ -1,3 +1,3 @@
-.venv_my_proj
-.csv
-.pkl
+*.venv_my_proj
+*.csv
+*.pkl
