@@ -1,3 +1,7 @@
 *.venv_my_proj
 *.csv
 *.pkl
+catboost_info
+mlartifacts*
+mlruns*
+*.zip
