@@ -3,3 +3,5 @@ matplotlib==3.10.9
 bokeh
 seaborn==0.13.2
 ipykernel==7.3.0
+scikit-learn==1.9.1
+catboost==1.2.10
