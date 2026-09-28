@@ -21,5 +21,13 @@ source .venv_my_project/bin/activate    # Linux
 python -m pip install --upgrade pip
 pip install -r requirements.txt -i https://pypi.doubanio.com/simple
 ```
+
+Запуск скрипта
+```
+./mlflow/start_mlflow.sh
+```
+```
+sh ./mlflow/start_mlflow.sh
+```
 <hr>
 Репозиторий <a href="https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students" target="_blank" rel="noopener noreferrer">ai-impact-on-students</a> 

@@ -1,4 +1,5 @@
 mlartifacts*
+artifacts*
 *.db
 mlruns*
 catboost_info
