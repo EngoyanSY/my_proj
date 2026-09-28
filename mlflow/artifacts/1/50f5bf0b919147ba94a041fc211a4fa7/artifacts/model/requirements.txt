@@ -1,8 +1,0 @@
-mlflow==2.16.0
-catboost==1.2.10
-cloudpickle==3.1.2
-ipython==9.17.1
-numpy==2.5.3
-pandas==2.3.3
-scikit-learn==1.9.1
-scipy==1.17.1
