@@ -1,11 +1,11 @@
-pandas==2.3.3
+pandas
 numpy==1.26.4
-ipykernel==7.3.0
+ipykernel
 
-matplotlib==3.10.9
+matplotlib
 bokeh
-seaborn==0.13.2
+seaborn
 
-scikit-learn==1.9.1
-catboost==1.2.10
+scikit-learn
+catboost
 mlflow==2.16
