@@ -1,0 +1,6 @@
+mlartifacts*
+*.db
+mlruns*
+catboost_info
+*.zip
+*.pkl
