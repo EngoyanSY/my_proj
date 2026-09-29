@@ -1,4 +1,5 @@
-*.venv_my_project
+*.venv_my_project/
+*.venv_my_proj/
 *.csv
 *.pkl
 catboost_info
