@@ -4,7 +4,7 @@
 cd "$(dirname "$0")/.."
 
 # Активируем виртуальное окружение, в котором установлен mlflow
-source .venv_my_project/Scripts/activate
+source .venv_my_project/bin/activate
 
 # Создаем папку mlflow, если её еще нет
 mkdir -p mlflow
