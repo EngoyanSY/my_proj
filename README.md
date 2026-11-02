@@ -33,6 +33,6 @@ sh ./mlflow/start_mlflow.sh
 
 Лучший run_id
 ```
-6f56fb9b9cf645e992c04e8a1b1100d9
+aadfeacf05e94a0e8b3f559ca63842a4
 ```
 Репозиторий <a href="https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students" target="_blank" rel="noopener noreferrer">ai-impact-on-students</a> 
