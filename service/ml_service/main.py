@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from prometheus_fastapi_instrumentator import Instrumentator
 from prometheus_client import Histogram, Gauge, Counter, Summary
 
-from service.ml_service.api_handler import FastAPIHandler
+from api_handler import FastAPIHandler
 
 app = FastAPI()
 app.handler = FastAPIHandler()

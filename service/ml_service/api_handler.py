@@ -1,19 +1,25 @@
-
 import logging
+import os
+
 import pandas as pd
 import pickle as pkl
-from datetime import datetime
 
 logger = logging.getLogger("uvicorn.error")
 class FastAPIHandler:
 
     def __init__(self):
         logger.warning('Loading model...')
+
+        if os.path.exists('/models/model.pkl'):
+            model_path = '/models/model.pkl'
+        else:
+            model_path = os.path.join(os.path.dirname(__file__), '../models/model.pkl')
+
         try:
-            self.model = pkl.load(open('service/models/model.pkl', 'rb'))
-            logger.info('Model is loaded')
+            self.model = pkl.load(open(model_path, 'rb'))
+            logger.info(f'Model is successfully loaded from {model_path}')
         except Exception as e:
-            logger.error('Error loading model')
+            logger.error(f'Error loading model: {str(e)}')
 
     def predict(self, item_id, item_features:dict):
         item_df = pd.DataFrame(data=item_features, index=[0])

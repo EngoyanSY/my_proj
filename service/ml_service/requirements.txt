@@ -4,5 +4,7 @@ prometheus-fastapi-instrumentator==7.1.0
 prometheus_client==0.26.0
 
 pandas
-pickle
-scikit-learn
+numpy
+scikit-learn==1.6.1
+catboost
+scipy==1.13.1
