@@ -1,0 +1,12 @@
+name: lab_app
+
+services:
+  gpa_predict:
+    image: estate_model:0
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./models:/models
+
+  requests:
+    image: test_requests:0

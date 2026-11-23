@@ -1,3 +1,4 @@
+import os
 import requests
 import time
 import random as rnd
@@ -19,6 +20,6 @@ for i in range(50):
               "Anxiety_Level_During_Exams":4,
               "Skill_Retention_Score": rnd.randint(80, 95)
     }
-    response = requests.post('http://localhost:8001/api/prediction', params=params, json=data)
+    response = requests.post('http://gpa_predict:8000/api/prediction', params=params, json=data)
     time.sleep(rnd.randint(1,5))
     print(response.json())
