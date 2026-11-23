@@ -29,6 +29,11 @@ pip install -r requirements.txt -i https://pypi.doubanio.com/simple
 ```
 sh ./mlflow/start_mlflow.sh
 ```
+
+Запуск контенеров из my_proj/service
+```
+docker compose up
+```
 <hr>
 
 Лучший run_id
@@ -36,3 +41,22 @@ sh ./mlflow/start_mlflow.sh
 68717591abcc4d82bce049d89496740d
 ```
 Репозиторий <a href="https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students" target="_blank" rel="noopener noreferrer">ai-impact-on-students</a> 
+
+<hr>
+
+Prometheus
+
+Графики гистограммы
+![Prometheus](data/images/prometheus_1.png)
+
+Графики кол-ва запросов к сервису в минуту
+![Prometheus](data/images/prometheus_2.png)
+
+Графики кол-ва запросов по коду ответа (5xx|4xx|2xx)
+![Prometheus](data/images/prometheus_3.png)
+
+<hr>
+
+Grafana
+
+![Grafana dashboard](data/images/grafana_1.png)
