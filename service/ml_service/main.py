@@ -12,8 +12,8 @@ instrumentator.instrument(app).expose(app)
 
 prediction_metric = Histogram(
     'prediction_metric_histogram',
-    'histogram of predicted prices',
-    buckets=(100000, 1000000, 3000000, 5000000, 15000000, 50000000, 100000000)
+    'histogram of predicted gpa',
+    buckets=(2.0, 2.5, 3.0, 3.5, 4.0)
 )
 
 @app.get('/')
